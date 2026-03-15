@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-evolution",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Evolution tracking tools plugin for cortex-engine",
   "type": "module",
   "main": "dist/index.js",
@@ -24,5 +24,15 @@
     "evolution",
     "mcp"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Fozikio <hello@fozikio.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fozikio/tools-evolution.git"
+  },
+  "homepage": "https://github.com/Fozikio/tools-evolution#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Fozikio"
+  }
 }
