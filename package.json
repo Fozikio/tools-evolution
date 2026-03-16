@@ -1,7 +1,7 @@
 {
   "name": "@fozikio/tools-evolution",
   "version": "0.1.2",
-  "description": "Evolution tracking tools plugin for cortex-engine",
+  "description": "Identity evolution for AI agents — track how personality and values change over time. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,12 @@
     "cortex",
     "plugin",
     "evolution",
-    "mcp"
+    "mcp",
+    "ai-agent",
+    "memory",
+    "identity",
+    "personality",
+    "fozikio"
   ],
   "license": "MIT",
   "author": "Fozikio <hello@fozikio.com>",
@@ -34,5 +39,10 @@
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/idapixl"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
