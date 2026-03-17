@@ -2,7 +2,7 @@
  * evolution_list — list evolution proposals with optional status filter.
  */
 
-import type { ToolDefinition, ToolContext, QueryFilter } from 'cortex-engine';
+import type { ToolDefinition, ToolContext, QueryFilter } from '@fozikio/cortex-engine';
 
 const COLLECTION = 'evolutions';
 

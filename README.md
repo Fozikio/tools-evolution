@@ -25,7 +25,7 @@ plugins:
 
 ```typescript
 import evolutionPlugin from "@fozikio/tools-evolution";
-import { CortexEngine } from "cortex-engine";
+import { CortexEngine } from "@fozikio/cortex-engine";
 
 const engine = new CortexEngine({
   plugins: [evolutionPlugin],
