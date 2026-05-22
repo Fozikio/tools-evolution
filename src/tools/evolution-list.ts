@@ -11,6 +11,8 @@ const VALID_STATUSES = ['proposed', 'applied', 'rejected', 'reverted'] as const;
 export const evolutionListTool: ToolDefinition = {
   name: 'evolution_list',
   description: 'List evolution proposals. Filter by status (default: proposed).',
+  category: 'meta',
+  whenToUse: 'When listing pending identity evolution proposals to review or apply',
   inputSchema: {
     type: 'object',
     properties: {

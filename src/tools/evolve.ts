@@ -12,6 +12,8 @@ export const evolveTool: ToolDefinition = {
   name: 'evolve',
   description:
     'Propose an identity evolution — a change in values, preferences, patterns, or beliefs. Creates a proposal that can be reviewed and applied.',
+  category: 'meta',
+  whenToUse: 'When proposing a new identity evolution - a change in values, preferences, patterns, or beliefs',
   inputSchema: {
     type: 'object',
     properties: {
